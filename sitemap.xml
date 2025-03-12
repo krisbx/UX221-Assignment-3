@@ -32,6 +32,26 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/switch-axe/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/longsword/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/charge-blade/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/insect-glaive/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
