@@ -1,0 +1,66 @@
+/*
+Theme Name:     test
+Description:    from assignment 2
+Author:         krisbx
+Template:       twentytwentyfive
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.grid-container {
+    margin: 0 auto;
+}
+
+a {
+    color: #056323 !important;
+}
+
+header {
+    background-color: #f4ffe0 !important;
+}
+
+body {
+    background: #fafff9
+}
+
+.main-title a {
+    font-size: 35px;
+}
+
+.entry-title {
+    font-family: "Sour Gummy", sans-serif;
+    color: #0b7137 !important;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    color: #0b7137;
+}
+
+.entry-header {
+    background-color: white !important;
+}
+
+.wp-block-page-list a {
+    font-family: "Chewy", system-ui;
+    font-size: 20px;
+    display: inline-block;
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.wp-block-page-list a:hover {
+    font-size: 25px;
+    animation: bounce 0.5s ease-in-out;
+}
+
+.main-navigation {
+    background: transparent;
+}
